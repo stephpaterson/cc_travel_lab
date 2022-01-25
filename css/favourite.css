@@ -1,13 +1,27 @@
+.favourite {
+  display: flex;
+}
+
 .favourite-bg-1 {
     background-image: url(../img/favourites/indonesia.png);
   }
   
-  .favourite-bg-2 {
-    background-image: url(../img/favourites/australia.png);
+.favourite-bg-2 {
+  background-image: url(../img/favourites/australia.png);
   }
   
-  .favourite-bg-3 {
-    background-image: url(../img/favourites/switzerland.png);
+.favourite-bg-3 {
+  background-image: url(../img/favourites/switzerland.png);
   }
   
-  
+.favourite-country {
+  flex: 30%;
+  background-size: cover;
+  margin: 20px;
+  padding: 10px;
+  color: white;
+}
+
+.favourite h2 {
+  font-family: Lobster;
+}
